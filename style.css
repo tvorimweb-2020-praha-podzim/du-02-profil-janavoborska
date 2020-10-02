@@ -15,5 +15,69 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+    background-color: #31363b;
+    width: 250px;
+    margin: auto 0 0 0;
+    box-shadow: whitesmoke;
+    }
+/*
+..hlavicka {
+    background-image: url(foto.jpg);
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+*/
+
+.foto {
+    width: 250px;
+    height: auto;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p {
+    
+}
+
+.odkazy {
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+
+ .portfolio {
+    text-align: center;text-align: center;
+    display: block;
+ }   
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+}
+
+.obsah {
+    background-color: #31363b;
+    color: whitesmoke;
+    font-family:'Source Sans Pro';
+    padding: 1rem;
+}
+
+.facebook,
+.twitter {
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.facebook a:hover,
+.facebook a:focus,
+.facebook a:active {
+    background-color: #3b5998;
 }
