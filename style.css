@@ -21,59 +21,71 @@ body {
     box-shadow: whitesmoke;
     }
 /*
-..hlavicka {
+.hlavicka {
     background-image: url(foto.jpg);
     width: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
-
 */
+.hlavicka {
+    position: relative;
+}
 
 .foto {
     width: 250px;
     height: auto;
-}
+    }
 
 .h1 {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .jmeno {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 
 .p {
-    
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .odkazy {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     }
 
  .portfolio {
-    text-align: center;text-align: center;
+    text-align: center;
     display: block;
- }   
+    border-top: solid whitesmoke 0.05rem;
+    border-bottom: solid  whitesmoke 0.05rem;
+     }   
 
 .logo {
     background-color: #b92e81;
     border-radius: 50%;
-}
+    position: absolute;
+    left: 100px;
+    bottom: -150;
+    }
 
 .obsah {
     background-color: #31363b;
     color: whitesmoke;
     font-family:'Source Sans Pro';
     padding: 1rem;
+    font-size: 1rem
 }
 
 .facebook,
 .twitter {
     display: inline-block;
     color: whitesmoke;
+    border-top: solid whitesmoke 0.05rem;
+    border-bottom: solid  whitesmoke 0.05rem;
+    text-align: center;
 }
 
 .facebook a:hover,
@@ -81,3 +93,14 @@ body {
 .facebook a:active {
     background-color: #3b5998;
 }
+
+/*
+.logo {
+    position: absolute;
+    left: 150px;
+    top: 150;
+    width: 150px;
+    height: 60px;
+}
+
+
