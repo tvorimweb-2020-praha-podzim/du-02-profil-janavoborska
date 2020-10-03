@@ -24,7 +24,7 @@ html { box-sizing: border-box; }
 */
 
 body {
-    background-color: #31363b;
+    background-color: white;
     box-sizing: auto;
     width: 250px;
     margin: auto 0 0 0;
@@ -45,14 +45,16 @@ body {
 */
 
 .hlavicka {
-    
-}
+    margin: -0.198rem;
+    width: 250px;
+    }
 
 .foto {
     width: 250px;
     height: auto;
     position: relative;
     opacity: 99%;
+    margin: auto;
     }
 
 .h1 {
@@ -75,7 +77,15 @@ body {
     border-bottom: solid  whitesmoke 0.05rem;
     }
 
- 
+ .obsah {
+    background-color: #31363b;
+    color: whitesmoke;
+    font-family:'Source Sans Pro';
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0;
+    width: 250px;
+    }
   
 
 .logo {
@@ -86,27 +96,25 @@ body {
     top: 70px;
   }   
     
+
+
 /* s timto si nevim rady*/
 
 .portfolio {
     display: block;
     border-bottom: inherit;
+    background-color: #31363b;
 }
 
-.obsah {
-    background-color: #31363b;
-    color: whitesmoke;
-    font-family:'Source Sans Pro';
-    padding: 1rem;
-    font-size: 1rem;
-    
-    }
+
 
 .facebook,
 .twitter {
     display: inline-block;
     color: whitesmoke;
     border-left: solid  whitesmoke 0.05rem;
+    background-color: #31363b;
+    margin: 0;
     }
 
 .facebook a:hover,
