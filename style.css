@@ -16,6 +16,7 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #31363b;
+    box-sizing: auto;
     width: 250px;
     margin: auto 0 0 0;
     box-shadow: whitesmoke;
@@ -29,6 +30,7 @@ body {
     background-size: cover;
 }
 */
+
 .hlavicka {
     position: relative;
 }
@@ -40,7 +42,6 @@ body {
 
 .h1 {
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 .jmeno {
@@ -54,14 +55,15 @@ body {
 
 .odkazy {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-top: solid whitesmoke 0.05rem;
+    border-bottom: solid  whitesmoke 0.05rem;
     }
 
  .portfolio {
-    text-align: center;
     display: block;
-    border-top: solid whitesmoke 0.05rem;
-    border-bottom: solid  whitesmoke 0.05rem;
-     }   
+    border-bottom: inherit;
+}   
 
 .logo {
     background-color: #b92e81;
@@ -69,7 +71,7 @@ body {
     position: absolute;
     left: 100px;
     bottom: -150;
-    }
+}
 
 .obsah {
     background-color: #31363b;
@@ -83,24 +85,12 @@ body {
 .twitter {
     display: inline-block;
     color: whitesmoke;
-    border-top: solid whitesmoke 0.05rem;
-    border-bottom: solid  whitesmoke 0.05rem;
-    text-align: center;
-}
+    border-left: solid  whitesmoke 0.05rem;
+    }
 
 .facebook a:hover,
 .facebook a:focus,
 .facebook a:active {
     background-color: #3b5998;
 }
-
-/*
-.logo {
-    position: absolute;
-    left: 150px;
-    top: 150;
-    width: 150px;
-    height: 60px;
-}
-
 
