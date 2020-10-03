@@ -75,10 +75,8 @@ body {
     border-bottom: solid  whitesmoke 0.05rem;
     }
 
- .portfolio {
-    display: block;
-    border-bottom: inherit;
-}   
+ 
+  
 
 .logo {
     background-color: #b92e81;
@@ -86,8 +84,13 @@ body {
     position: absolute;
     left: 90px;
     top: 70px;
+  }   
     
-    
+/* s timto si nevim rady*/
+
+.portfolio {
+    display: block;
+    border-bottom: inherit;
 }
 
 .obsah {
