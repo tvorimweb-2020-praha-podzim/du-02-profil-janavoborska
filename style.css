@@ -25,32 +25,20 @@ html { box-sizing: border-box; }
 
 body {
     background-color: white;
-    box-sizing: auto;
-    width: 250px;
-    display: flex;
+   width: 250px;
     align-items: center;
     justify-content: center;
     margin-left: 3rem;
     
-    }
-/*
-.hlavicka {
-    background-image: url(foto.jpg);
-    width: 250px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    box-shadow: rgb(138, 131, 131);
 }
-*/
+
 
 .hlavicka {
     width: 250px;
 }
 
 .foto {
-    width: 248px;
+    width: 100%;
     height: auto;
     position: relative;
     opacity: 99%;
@@ -71,7 +59,7 @@ body {
 
 .jmeno {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .p {
@@ -80,9 +68,18 @@ body {
 
 .odkazy {
     font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+    margin: -1rem;
     text-align: center;
-    border-top: solid whitesmoke 0.05rem;
-    border-bottom: solid  whitesmoke 0.05rem;
+    text-transform: uppercase;
+}
+
+.odkazy a {
+    display: block;
+    color: whitesmoke;
+    padding: 1rem;
+    text-decoration: none;
 }
 
  .obsah {
@@ -93,19 +90,49 @@ body {
     font-size: 0.9rem;
     margin: 0;
     margin-bottom: 0;
-    width: 248px;
+    width: 250px;
 }
 
+.profil {
+    background-color: #31363b;
+}
+
+.portfolio {
+    width: 100%;
+    }
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+.twitter:hover {
+    background-color:  #1da1f2;
+}
+
+.odkazy li {
+    display: inline-block;
+}
+ 
+
+.facebook,
+.twitter {
+    width: 50%;
+}
 
 /* s timto si nevim rady
 
-*/  
+ 
 .odkazy {
     background-color: #31363b;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
-    width: 248px;
+    width: 250px;
+    list list-style: none;
 }
 
 .portfolio {
@@ -142,3 +169,4 @@ body {
 .facebook a:active {
     background-color: #3b5998;
 }
+*/ 
