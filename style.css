@@ -57,6 +57,14 @@ body {
     display: block;
     }
 
+.logo {
+        background-color: #b92e81;
+        border-radius: 50%;
+        position: absolute;
+        left: 110px;
+        top: 70px;
+      }    
+    
 .h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -84,29 +92,40 @@ body {
     padding: 1rem 1rem 1rem 1rem;
     font-size: 0.9rem;
     margin: 0;
+    margin-bottom: 0;
     width: 248px;
         }
   
-
-.logo {
-    background-color: #b92e81;
-    border-radius: 50%;
-    position: absolute;
-    left: 100px;
-    top: 70px;
-  }   
-    
-
-
-/* s timto si nevim rady*/
+.odkazy {
+    background-color: #31363b;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    width: 248px;
+}
 
 .portfolio {
-    display: block;
-    border-bottom: inherit;
-    background-color: #31363b;
-    width: 250px;
-  
+    display: inline-block;
+    text-align: center;
+    padding-left: -2rem;
+    border: 0.1rem solid whitesmoke;
+}    
+
+.facebook,
+.twitter {
+    display: inline-block;
+    border: 0.01rem solid whitesmoke;
 }
+
+
+.li {
+    text-align: center;
+    color: whitesmoke;
+   
+}
+
+
+
 
 
 
@@ -124,4 +143,6 @@ body {
 .facebook a:active {
     background-color: #3b5998;
 }
+/* s timto si nevim rady
 
+*/
