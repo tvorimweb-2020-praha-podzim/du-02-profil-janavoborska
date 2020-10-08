@@ -47,7 +47,7 @@ body {
 
 .hlavicka {
     width: 250px;
-        }
+}
 
 .foto {
     width: 248px;
@@ -55,7 +55,7 @@ body {
     position: relative;
     opacity: 99%;
     display: block;
-    }
+}
 
 .logo {
         background-color: #b92e81;
@@ -63,7 +63,7 @@ body {
         position: absolute;
         left: 110px;
         top: 70px;
-      }    
+}    
     
 .h1 {
     font-family: 'Montserrat', sans-serif;
@@ -83,7 +83,7 @@ body {
     text-align: center;
     border-top: solid whitesmoke 0.05rem;
     border-bottom: solid  whitesmoke 0.05rem;
-        }
+}
 
  .obsah {
     background-color: #31363b;
@@ -94,8 +94,12 @@ body {
     margin: 0;
     margin-bottom: 0;
     width: 248px;
-        }
-  
+}
+
+
+/* s timto si nevim rady
+
+*/  
 .odkazy {
     background-color: #31363b;
     color: whitesmoke;
@@ -120,13 +124,8 @@ body {
 
 .li {
     text-align: center;
-    color: whitesmoke;
-   
+    color: whitesmoke; 
 }
-
-
-
-
 
 
 .facebook,
@@ -136,13 +135,10 @@ body {
     border-left: solid  whitesmoke 0.05rem;
     background-color: #31363b;
     margin: 0;
-    }
+}
 
 .facebook a:hover,
 .facebook a:focus,
 .facebook a:active {
     background-color: #3b5998;
 }
-/* s timto si nevim rady
-
-*/
